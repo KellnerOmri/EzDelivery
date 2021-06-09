@@ -1,0 +1,27 @@
+﻿@page
+@model LogoutModel
+@{
+    ViewData["Title"] = "EZ Delivery - Log out";
+}
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h1 class="fadeIn first hText">Are you sure you want to logout?</h1>
+                @{
+                    if (User.Identity.IsAuthenticated)
+                    {
+                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                            <button type="submit" class="nav-link btn btn-link text-dark fadeIn second ">Click here to Logout</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <p class="fadeIn first hText">You have successfully logged out of the application.</p>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</header>

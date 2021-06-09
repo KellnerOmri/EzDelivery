@@ -1,0 +1,53 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "EZ Delivery - Register";
+}
+
+
+<div class="container">  
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <h1 class="fadeIn first hText">Register</h1>
+                <h4 class="fadeIn first hText">Create a new account</h4>
+                <hr class="fadeIn first" />
+                <div asp-validation-summary="All" class="text-danger fadeIn second"></div>
+                <div class="form-group fadeIn second center">
+                    <input asp-for="Input.Email" class="form-control" placeholder="Email" />
+                    <span asp-validation-for="Input.Email" class="text-danger fadeIn second"></span>
+                </div>
+                <div asp-validation-summary="All" class="text-danger fadeIn second"></div>
+                <div class="form-group fadeIn second center">
+                    <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Phone" />
+                    <span asp-validation-for="Input.PhoneNumber" class="text-danger fadeIn second"></span>
+                </div>
+
+                <div class="form-group fadeIn second center">
+                    <input type="text" asp-for="Input.FirstName" class="form-control" placeholder="First Name" />
+                    @*<span asp-validation-for="Input.PhoneNumber" class="text-danger fadeIn second"></span>*@
+                </div>
+                <div class="form-group fadeIn second center">
+                    <input type="text" asp-for="Input.LastName" class="form-control" placeholder="Last Name" />
+                    @*<span asp-validation-for="Input.PhoneNumber" class="text-danger fadeIn second"></span>*@
+                </div>
+
+                <div class="form-group fadeIn third center">
+                    <input asp-for="Input.Password" class="form-control" placeholder="Password" />
+                    <span asp-validation-for="Input.Password" class="text-danger fadeIn third"></span>
+                </div>
+                <div class="form-group fadeIn fourth center">
+                    <input asp-for="Input.ConfirmPassword" class="form-control" placeholder="Confirm Password" />
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger fadeIn fourth"></span>
+                </div>
+                <div class="fadeIn five center">
+                    <input type="button" value="Register" onclick="submit()">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }

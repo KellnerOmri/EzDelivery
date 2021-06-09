@@ -1,0 +1,12 @@
+C:\omri\EZdelivary\clone\EzD.Model\bin\Debug\net5.0\EzD.Model.deps.json
+C:\omri\EZdelivary\clone\EzD.Model\bin\Debug\net5.0\EzD.Model.dll
+C:\omri\EZdelivary\clone\EzD.Model\bin\Debug\net5.0\ref\EzD.Model.dll
+C:\omri\EZdelivary\clone\EzD.Model\bin\Debug\net5.0\EzD.Model.pdb
+C:\omri\EZdelivary\clone\EzD.Model\obj\Debug\net5.0\EzD.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\omri\EZdelivary\clone\EzD.Model\obj\Debug\net5.0\EzD.Model.AssemblyInfoInputs.cache
+C:\omri\EZdelivary\clone\EzD.Model\obj\Debug\net5.0\EzD.Model.AssemblyInfo.cs
+C:\omri\EZdelivary\clone\EzD.Model\obj\Debug\net5.0\EzD.Model.csproj.CoreCompileInputs.cache
+C:\omri\EZdelivary\clone\EzD.Model\obj\Debug\net5.0\EzD.Model.dll
+C:\omri\EZdelivary\clone\EzD.Model\obj\Debug\net5.0\ref\EzD.Model.dll
+C:\omri\EZdelivary\clone\EzD.Model\obj\Debug\net5.0\EzD.Model.pdb
+C:\omri\EZdelivary\clone\EzD.Model\obj\Debug\net5.0\EzD.Model.csprojAssemblyReference.cache
